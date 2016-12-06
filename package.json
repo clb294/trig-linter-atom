@@ -1,0 +1,40 @@
+{
+  "name": "trig-linter",
+  "main": "./lib/trig-linter",
+  "version": "0.0.1",
+  "description": "Trig linter for atom",
+  "keywords": [
+    "trig",
+    "rdf",
+    "turtl",
+    "linter",
+    "lint",
+    "syntax"
+  ],
+
+  "repository": "https://github.com/atom/trig-linter",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "package-deps": [
+    "linter",
+    "language-rdf"
+  ],
+  "plugins": [
+      "babel"
+  ],
+  "private": true,
+  "dependencies": {
+    "atom-package-deps": "^4.0.1",
+    "js-trig-parser": "https://github.com/cambridgesemantics/js-trig-parser.git#validation-fixes",
+    "atom-linter": "^8.0.0"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  }
+}

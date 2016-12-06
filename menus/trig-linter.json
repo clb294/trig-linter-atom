@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle trig-linter",
+        "command": "trig-linter:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "trig-linter",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "trig-linter:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
