@@ -1,9 +1,10 @@
 {
-  "name": "trig-linter",
+  "name": "trig-linter-atom",
   "main": "./lib/trig-linter",
   "version": "0.0.1",
   "description": "Trig linter for atom",
   "keywords": [
+    "atom",
     "trig",
     "rdf",
     "turtl",
@@ -12,7 +13,7 @@
     "syntax"
   ],
 
-  "repository": "https://github.com/atom/trig-linter",
+  "repository": "https://github.com/clb294/trig-linter-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
