@@ -1,7 +1,7 @@
 {
   "name": "trig-linter-atom",
   "main": "./lib/trig-linter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Trig linter for atom",
   "keywords": [
     "atom",
@@ -12,7 +12,6 @@
     "lint",
     "syntax"
   ],
-
   "repository": "https://github.com/clb294/trig-linter-atom",
   "license": "MIT",
   "engines": {
@@ -23,7 +22,7 @@
     "language-rdf"
   ],
   "plugins": [
-      "babel"
+    "babel"
   ],
   "private": true,
   "dependencies": {
