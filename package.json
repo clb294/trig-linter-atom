@@ -12,6 +12,7 @@
     "lint",
     "syntax"
   ],
+  "atom-package-dependencies": "latest",
   "repository": "https://github.com/clb294/trig-linter-atom",
   "license": "MIT",
   "engines": {
