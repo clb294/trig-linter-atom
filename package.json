@@ -1,7 +1,7 @@
 {
   "name": "trig-linter-atom",
   "main": "./lib/trig-linter",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Trig linter for atom",
   "keywords": [
     "atom",
