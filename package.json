@@ -1,7 +1,7 @@
 {
   "name": "trig-linter-atom",
   "main": "./lib/trig-linter",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Trig linter for atom",
   "keywords": [
     "atom",
@@ -27,7 +27,7 @@
   ],
   "private": true,
   "dependencies": {
-    "atom-package-deps" : "",
+    "atom-package-deps": "",
     "js-trig-parser": "https://github.com/cambridgesemantics/js-trig-parser.git#validation-fixes",
     "atom-linter": "^8.0.0"
   },
