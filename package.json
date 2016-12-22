@@ -18,15 +18,16 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "package-dependencies": {
-    "language-rdf": "//this field will be ignored right now"
-  },
+  "package-deps": [
+    "language-rdf#mjansing/language-rdf.git",
+    "linter"
+  ],
   "plugins": [
     "babel"
   ],
   "private": true,
   "dependencies": {
-    "atom-package-dependencies": "*",
+    "atom-package-deps" : "",
     "js-trig-parser": "https://github.com/cambridgesemantics/js-trig-parser.git#validation-fixes",
     "atom-linter": "^8.0.0"
   },
